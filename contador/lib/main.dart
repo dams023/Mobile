@@ -109,6 +109,7 @@ class _EstadoAplicativo extends State<Aplicativo> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        //backgroundColor: Colors.orange,  - Pra mudar cor de fundo.
         appBar: AppBar(
           backgroundColor: Colors.indigoAccent,
           title: const Text(
