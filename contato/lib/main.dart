@@ -58,7 +58,7 @@ class _PrincipalEstado extends State<Principal> {
    onPressed: () {
       launchUrl(Uri(
         scheme: 'mailto', 
-        path: 'dams.5930@aluno.pr.senac.br',
+        path: '',
         queryParameters: {
           'subject': 'Assunto do email',
           'body': 'Corpo do email',
